@@ -124,7 +124,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=3e-4)
     parser.add_argument('--sched', type=str)
     parser.add_argument('--pretrained', type=str)
-    parser.add_argument('--ckp', type=str)
+    parser.add_argument('--ckp', type=str, default="./checkpoint')
     parser.add_argument('--bs', type=int, default=32)
     parser.add_argument('path', type=str)
 
